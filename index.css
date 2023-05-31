@@ -1,0 +1,37 @@
+    body {
+
+    background: rgba(218, 216, 216, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    }
+
+    nav ul {
+        list-style: none;
+        overflow: hidden; 
+    }
+
+    nav ul li {
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;;
+        font-size: 20px;
+        }
+
+        nav ul li a {
+            display: block; 
+            padding: 2px;
+            color: #b6adad;
+            text-decoration: none;
+    }
+    
+    .text-menu {
+        position: absolute;
+        bottom: 10px;
+        left: 15px;
+        color: rgb(170, 168, 168);
+        font: bold 20px/20px Helvetica, Sans-Serif;
+        letter-spacing: 2px;
+        padding: 0;
+        margin:0;
+        list-style: none;
+    }
