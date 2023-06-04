@@ -1,0 +1,100 @@
+a:hover {
+    color: rgb(19, 18, 18);
+}
+    
+    body {
+
+    background: rgba(218, 216, 216, 0.7);
+    width: 100%;
+    position: relative;
+    z-index: 100;
+    }
+
+    nav ul {
+        list-style: none;
+        overflow: hidden; 
+    }
+
+    nav ul li {
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;;
+        font-size: 20px;
+        }
+
+        nav ul li a {
+            display: block; 
+            padding: 2px;
+            color: #b6adad;
+            text-decoration: none;
+    }
+    
+    .text-menu {
+        position: relative;
+        bottom: 30px;
+        left: 15px;
+        color: rgb(170, 168, 168);
+        font: bold 20px/20px Helvetica, Sans-Serif;
+        letter-spacing: 2px;
+        padding: 0;
+        margin:0;
+        list-style: none;
+    }
+
+.credit-card {
+    width: 1000px;
+    display: flex;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    /* border none quita los bordes al boton */
+    border: none;
+    border-radius: 1px;
+
+/* tamaño boton */
+}
+
+.credit-card::before {
+    content: '💳';
+
+}
+
+.term {
+    font-size: 10px;
+    color: #19275c;
+    text-align: left;
+}
+
+.transfer::before {
+    content: '🏦';
+
+}
+
+.transfer {
+    font-size: 10px;
+    color: #19275c;
+    text-align: left;
+}
+
+.cash::before {
+    content: '💸';
+
+}
+
+.cash {
+    font-size: 10px;
+    color: #19275c;
+    text-align: left;
+}
+
+.payment-methods::before {
+    content: '✖️';
+
+}
+
+.payment-methods {
+    font-size: 10px;
+    color: #19275c;
+    text-align: left;
+    position: static;
+}
